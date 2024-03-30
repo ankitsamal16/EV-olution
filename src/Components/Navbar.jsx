@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center mt-10 mb-10 ml-[120px] mr-[120px] text-white">
-        <div className="font-[Outfit] text-4xl font-semibold">
+        <div className="font-[Outfit] text-4xl font-semibold cursor-pointer">
             EV-olution
         </div>
-        <ul className="flex items-center text-lg gap-24">
+        <ul className="flex items-center text-lg gap-24 cursor-pointer">
             <li>Home</li>
             <li>Explore</li>
             <li>About</li>
